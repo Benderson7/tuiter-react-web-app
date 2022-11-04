@@ -1,93 +1,42 @@
-#search {
-    padding: 10px;
+#search-icon {
+    align-self: center;
 }
 
-#search input {
-    padding-left: 16px;
-    width: 88%;
-    height: 25px;
-    border-radius: 15px;
-    color: white;
-    background-color: darkgray;
-    border-style: solid;
-    border-color: darkgray;
+#search-cog {
+    color: #2a9fd6;
+    align-self: center;
+    text-align: center;
 }
 
-#search a {
-    margin-left: 12px;
-    text-decoration: none;
-    color: rgb(29, 161, 242);
+.wd-image-overlay img {
+    width: 100%;
+    filter: brightness(75%);
 }
 
-#navigation {
-    display: flex;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black black rgb(47, 51, 54) black;
+.wd-image-overlay h1 {
+    left: 0.5rem;
 }
 
-#navigation a {
-    color: rgb(110, 118, 125);
-    text-decoration: none;
-    font-size: 15px;
-    padding: 16px;
+.wd-post {
+    align-items: center;
 }
 
-#navigation a:first-of-type {
-    color: rgb(29, 161, 242);
-    border-style: solid;
-    border-color: black black rgb(29, 161, 242) black;
+.wd-post img {
+    width: 100%;
+    height: 100%;
 }
 
-.wd-suggested-post {
+#who-to-follow li {
+    font-size: 0.9rem;
+}
+
+#who-to-follow img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+}
+
+.wd-follow {
     height: fit-content;
-    padding: 10px 0 10px 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black black rgb(47, 51, 54) black;
-    overflow: hidden;
-}
-
-.wd-no-image {
-    height: 104px;
-}
-
-.wd-suggested-post * {
-    margin: 2px;
-    width: fit-content;
-}
-
-.wd-suggested-post .wd-topic {
-    font-size: 13px;
-    color: rgb(110, 118, 125);
-}
-
-.wd-suggested-post .wd-topic span {
-    display: inline;
-    color: white;
-}
-
-.wd-suggested-post .wd-title {
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-}
-
-.wd-suggested-post .wd-tuits {
-    font-size: 11px;
-    color: rgb(110, 118, 125);
-}
-
-.wd-suggested-post img {
-    float: right;
-    margin-right: 16px;
-    margin-left: 64px;
-    object-fit: cover;
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-}
-
-.wd-no-author .wd-topic span {
-    color: lightgray;
+    align-self: center;
 }

@@ -1,57 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Explore</title>
-  <link href="../styles.css"
-        rel="stylesheet"/>
-  <link href="index.css"
-        rel="stylesheet"/>
+    <link href="../styles.css"
+          rel="stylesheet"/>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../../vendors/bootswatch/bootstrap.min.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+    <script src="../../vendors/jquery/jquery-3.6.0.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Explore screen</title>
 </head>
 <body>
-  <div id="search" >
-    <input placeholder="Search Tuiter">
-    <a href="explore-settings.html">&#x2699;</a>
-  </div>
-  <div id="navigation">
-    <a href="#">For you</a>
-    <a href="#">Trending</a>
-    <a href="#">COVID-19</a>
-    <a href="#">News</a>
-    <a href="#">Sports</a>
-    <a href="#">Entertainment</a>
-  </div>
-  <div id="suggested-posts">
-    <div class="wd-suggested-post wd-no-image">
-      <p class="wd-topic">Trending in Science</p>
-      <p class="wd-title">Starship</p>
-      <p class="wd-tuits">55.5K Tweets</p>
-    </div>
-    <div class="wd-suggested-post wd-no-image">
-      <p class="wd-topic">Sports &#xB7; Trending</p>
-      <p class="wd-title">Joe Rogan</p>
-      <p class="wd-tuits">5,218 Tweets</p>
-    </div>
-    <div class="wd-suggested-post">
-      <img src="../../img/news.jpg" alt="news">
-      <p class="wd-topic"><span>The New York Times</span> &#xB7; Yesterday</p>
-      <p class="wd-title">CNN's Cuomo conundrum: A star anchor with a brother in trouble</p>
-    </div>
-    <div class="wd-suggested-post wd-no-author">
-      <img src="../../img/massachusetts.jpg" alt="news">
-      <p class="wd-topic"><span>COVID-19</span> &#xB7; LIVE</p>
-      <p class="wd-title">COVID-19: News and updates for Massachusetts</p>
-    </div>
-    <div class="wd-suggested-post">
-      <img src="../../img/booster.jpg" alt="booster">
-      <p class="wd-topic"><span>Bloomberg Opinion</span> &#xB7; Yesterday</p>
-      <p class="wd-title">Thinking about getting a booster? Read this first.</p>
-    </div>
-    <div class="wd-suggested-post wd-no-author">
-      <img src="../../img/banana.jpg" alt="news">
-      <p class="wd-topic"><span>Health</span> &#xB7; LIVE</p>
-      <p class="wd-title">Fruit updates for every day citizen</p>
-    </div>
-  </div>
+
+<div class="container" id="wd-explore"></div>
+<script src="index.js" type="module"></script>
+
 </body>
 </html>
